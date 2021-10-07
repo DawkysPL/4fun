@@ -9,6 +9,13 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            /*
+            var factory = new ExampleFactoryExample();
+            factory.Action();
+
+            // var deska = new GenericServices();
+            // deska.Act();
+
             Func<string, string, int, int> kek = Haha1;
             var xd = Hehe(5, Haha1);
 
@@ -18,10 +25,11 @@ namespace ConsoleApp3
                 y = y + z;
 
                 return 5;
-            });
+            }); */
+            var solution = new Solution();
+            solution.Action();
 
-            //var deska = new GenericServices();
-            //deska.Act();
+           
 
             Console.ReadLine();
         }
